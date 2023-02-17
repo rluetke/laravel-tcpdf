@@ -1,10 +1,10 @@
 <?php namespace Maxxscho\LaravelTcpdf;
 
-use \TCPDF;
+use \TCPDI;
 use Config;
 
 
-class LaravelTcpdf extends TCPDF
+class LaravelTcpdf extends TCPDI // extends FPDF_TPL extends FPDF extends TCPDF
 {
     var $htmlHeader; // holds custom header string/html
     
